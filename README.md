@@ -7,7 +7,7 @@ The following is required to set up HSO:
 
 ##### Step 1: Load dependencies to your local repository
 * git clone https://se_anonymous@bitbucket.org/se_anonymous/master.git
-* cd HSO
+* cd HiSenDroid
 * ./res/loadDependencies.sh
 
 ##### Step 2: build package：
