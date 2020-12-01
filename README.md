@@ -13,7 +13,7 @@ The following is required to set up HSO:
 ##### Step 2: build package：
 mvn clean install
 
-##### Step 3: example of running HSO(6 parameters):
+##### Step 3: example of running HSO(3 parameters):
 * Parameters are needed here: [your_apk_path.apk],[path of android.jar],[path of psCout.txt]
 * example:
 /yourpath/a0b2075ec2ace0b12489668d08d85c3a.apk
