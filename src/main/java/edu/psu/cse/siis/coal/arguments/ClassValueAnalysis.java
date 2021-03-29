@@ -18,8 +18,7 @@
  */
 package edu.psu.cse.siis.coal.arguments;
 
-import edu.monash.utils.ApplicationClassFilter;
-import edu.monash.utils.cgHelper;
+import edu.anonymous.utils.ApplicationClassFilter;
 import edu.psu.cse.siis.coal.AnalysisParameters;
 import edu.psu.cse.siis.coal.Constants;
 import org.apache.commons.collections4.CollectionUtils;
@@ -27,7 +26,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import soot.*;
 import soot.jimple.*;
-import soot.jimple.internal.*;
 import soot.jimple.toolkits.callgraph.Edge;
 import soot.toolkits.scalar.Pair;
 
@@ -35,7 +33,6 @@ import java.util.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 
 /**
  * An argument value analysis for class types.
