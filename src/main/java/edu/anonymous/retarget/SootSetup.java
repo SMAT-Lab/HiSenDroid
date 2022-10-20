@@ -35,10 +35,10 @@ public class SootSetup {
         Scene.v().addBasicClass("com.example.androidthings.bluetooth.audio.A2dpSinkActivity", SootClass.BODIES);
         config.setWriteOutputFiles(true);
         Options.v().set_no_bodies_for_excluded(true);
-        Options.v().set_soot_classpath(forceAndroidJar);
         Options.v().set_prepend_classpath(true);
         Options.v().set_allow_phantom_refs(true);
         Options.v().set_allow_phantom_elms(true);
+        Options.v().set_process_multiple_dex(true);
 
         if (config.getWriteOutputFiles())
             Options.v().set_output_format(Options.output_format_jimple);
