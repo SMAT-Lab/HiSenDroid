@@ -22,7 +22,7 @@ The following is required to set up HSO:
  MAC system
 
 ##### Step 1: Load dependencies to your local repository
-* git clone https://se_anonymous@bitbucket.org/se_anonymous/hisendroid.git
+* git clone git@github.com:SMAT-Lab/HiSenDroid.git
 * cd hisendroid
 * ./res/loadDependencies.sh
 
